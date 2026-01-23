@@ -1,17 +1,17 @@
-# import colorgram
+import colorgram
 
-# rgb_colours = []
+rgb_colours = []
 
-# colours = colorgram.extract('D:/100_Days_Code/Day18/img1.jpg',30)
+colours = colorgram.extract('D:/100_Days_Code/Day18/img1.jpg',30)
 
-# for color in colours:
-#     r = color.rgb.r
-#     g = color.rgb.g
-#     b = color.rgb.b
-#     new_color = (r,g,b)
-#     rgb_colours.append(new_color)
+for color in colours:
+    r = color.rgb.r
+    g = color.rgb.g
+    b = color.rgb.b
+    new_color = (r,g,b)
+    rgb_colours.append(new_color)
     
-# print(rgb_colours)
+print(rgb_colours)
 
 import turtle as t
 import random 
